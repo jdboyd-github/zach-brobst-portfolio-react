@@ -4,10 +4,10 @@ import styled from 'styled-components';
 const Navbar = () => {
     return (
         <Container>
-            <a href="#">Home</a>
-            <a href="#">About Me</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Services</a>
+            <a href="/home">Home</a>
+            <a href="/about">About Me</a>
+            <a href="/portfolio">Portfolio</a>
+            <a href="/services">Services</a>
         </Container>
     )
 }
